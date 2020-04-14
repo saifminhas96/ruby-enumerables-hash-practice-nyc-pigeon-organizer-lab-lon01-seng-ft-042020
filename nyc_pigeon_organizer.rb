@@ -15,5 +15,13 @@ if new_hash.has_key?(name)
  else
  new_hash[name][key] = [describe.to_s]
     end
+     else
+  new_hash[name] = {key => [describe.to_s]}
+        end
+      end
+    end
+  end
+  new_hash
+end
  
 end
