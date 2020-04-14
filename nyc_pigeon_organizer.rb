@@ -24,4 +24,4 @@ if new_hash.has_key?(name)
   new_hash
 end
  
-end
+
